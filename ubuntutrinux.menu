@@ -1,0 +1,8 @@
+LABEL UBUNTUTRINUX
+MENU LABEL ^Ubuntutrinux 1.2.6.20.7
+KERNEL er/plugins/ubuntutrinux/bzimage
+INITRD er/plugins/ubuntutrinux/initrd
+APPEND ramdisk_size=50000
+TEXT HELP
+                 Very small Linux PE - Security Testing.
+ENDTEXT
